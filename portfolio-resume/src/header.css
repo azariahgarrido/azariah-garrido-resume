@@ -1,0 +1,65 @@
+.mainDiv {
+  background-color: black;
+  color: white;
+  font-size: 80px;
+  height: 200px;
+  padding-top: 60px;
+  display: flex;
+}
+
+
+.headerDiv {
+  width: 50%;
+  background-color: black;
+  font-family: serif;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  from {color: white;}
+  to {color: blue;}
+}
+
+
+.navButtons {
+  margin-left: 400px;
+}
+
+
+button {
+  vertical-align: middle;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-color: white;
+}
+button:hover {
+  background-color: blue;
+  transition-duration: 0.75s;
+}
+button:active {
+  transition-duration: 1ms;
+  background-color: lightblue;
+}
+
+
+.theFoot {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100px;
+}
+.theFooter {
+  display: flex;
+  justify-content: center;
+  padding-right: 250px;
+}
+
+.mainRender {
+  background-color: greenyellow;
+}
