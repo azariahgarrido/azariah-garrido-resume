@@ -4,7 +4,7 @@ export default function AboutMe() {
     return (
         <div>
             <div className='sections'>
-                About Me
+                ABOUT ME
             </div>
             <div className='AboutMePic'>
                 <img className='portrait' src={Portrait} alt='Portrait' ></img>

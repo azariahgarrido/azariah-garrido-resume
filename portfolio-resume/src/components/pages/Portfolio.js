@@ -2,7 +2,7 @@ export default function Portfolio() {
     return (
         <div>
             <div className='sections'>
-                    Portfolio
+                    PORTFOLIO
             </div>
             <div className="projectContainer">
                 <a href="https://nameless-reef-69253.herokuapp.com/" target="_blank" rel="noreferrer"><div className="textEditor">

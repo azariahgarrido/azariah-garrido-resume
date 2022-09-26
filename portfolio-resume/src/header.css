@@ -144,6 +144,76 @@ a {
   color: white;
 }
 
+.helloName{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient2 {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.form {
+  /* background-color: blue; */
+  background: linear-gradient(-45deg, rgb(0, 225, 255), #0306bd, #7102a5, #ce1b7d);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.resumeBack {
+  height: 300px;
+  background: linear-gradient(-45deg, rgb(3, 7, 221), #0552e2, #4002a5, #070abb);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.download {
+  color: white;
+
+}
+
+.downloadI {
+  height: 50px;
+  width: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.flex {
+  text-align: center;
+}
+
 .portrait {
   height: 300px;
   width: 275px;
@@ -151,6 +221,7 @@ a {
   border-style: solid;
   border-color: white;
   border-width: 1px;
+  margin-top: 20px;
 }
 .AboutMePic {
   display: flex;
