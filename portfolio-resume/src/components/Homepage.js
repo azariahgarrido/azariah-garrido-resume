@@ -37,9 +37,9 @@ export default function Homepage() {
                 <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             </div>
                 {renderPage()}
-            <div className='theFooter'>
+            <footer className='footer'>
                 <Footer />
-            </div>
+            </footer>
         </div>
     );
 }

@@ -2,7 +2,7 @@
 export default function Navigation({ currentPage, handlePageChange }) {
     return (
         <div className='navButtons'>
-            <button>
+            <button className="buttonC">
                 <a
                     href="#AboutMe"
                     onClick={() => handlePageChange('AboutMe')}
@@ -10,7 +10,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                     >About Me
                 </a>
             </button>
-            <button>
+            <button className="buttonC">
                 <a
                     href="#Portfolio"
                     onClick={() => handlePageChange('Portfolio')}
@@ -18,7 +18,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                     >Portfolio
                 </a>
             </button>
-            <button>
+            <button className="buttonC">
                 <a
                     href="#Contact"
                     onClick={() => handlePageChange('Contact')}
@@ -26,7 +26,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                     >Contact
                 </a>
             </button>
-            <button>
+            <button className="buttonC">
                 <a
                     href="#Resume"
                     onClick={() => handlePageChange('Resume')}

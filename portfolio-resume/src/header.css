@@ -32,7 +32,7 @@
 }
 
 
-button {
+.buttonC {
   vertical-align: middle;
   height: 50px;
   border-radius: 50%;
@@ -41,29 +41,36 @@ button {
   border-style: solid;
   border-color: white;
 }
-button:hover {
+.buttonC:hover {
   background-color: blue;
   transition-duration: 0.75s;
 }
-button:active {
+.buttonC:active {
   transition-duration: 1ms;
   background-color: lightblue;
 }
 
 
-.theFoot {
-  display: flex;
-  flex-direction: row;
-  height: 100px;
-  width: 100px;
-}
-.theFooter {
+
+.footer {
+  background-color: black;
   display: flex;
   justify-content: center;
-  padding-right: 250px;
+
+}
+.theToes {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  background-color: black;
+  margin-top: 2px;
+}
+.toe {
+  height: 100px;
+  width: 100px;
   border-style: solid;
   border-color: black;
-  border-width: 10px;
+  border-width: 1px;
 }
 
 .projectContainer {
@@ -72,6 +79,28 @@ button:active {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.githubL {
+  font-size: 10px;
+  margin-top: 150px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+}
+.githubL:hover {
+  background-color: blue;
+}
+.githubF {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.githubB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
 }
 
 a {
@@ -199,19 +228,37 @@ a {
   justify-content: center;
   align-items: center;
 }
+.resumeTop {
+  background-color:black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-bottom-style: dotted;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+}
 .download {
   color: white;
-
+  font-weight: bold;
 }
 
 .downloadI {
-  height: 50px;
-  width: 50px;
-  padding-bottom: 50px;
+  height: 100px;
+  width: 100px;
+  padding-bottom: 10px;
   text-align: center;
 }
 .flex {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.mernStack {
+  height: 100px;
+  border-style: solid;
+  border-color:black;
+  border-width: 1px;
 }
 
 .portrait {
