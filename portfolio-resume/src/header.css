@@ -5,6 +5,9 @@
   height: 200px;
   padding-top: 60px;
   display: flex;
+  border-bottom-style: dotted;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
 }
 
 
@@ -58,8 +61,115 @@ button:active {
   display: flex;
   justify-content: center;
   padding-right: 250px;
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
 }
 
-.mainRender {
-  background-color: greenyellow;
+.projectContainer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a {
+  text-decoration:none;
+  color: inherit;
+  opacity: 1;
+}
+
+.textEditor {
+  height: 250px;
+  width: 250px;
+  font-size: 30px;
+  font-weight: bold;
+  border-style: solid;
+  border-color: white;
+  background-image: url('https://th.bing.com/th/id/R.261d79268475f4dede873118fb7a506f?rik=RqXLF8DGne%2bdMw&pid=ImgRaw&r=0');
+  background-position-x: center;
+  background-size: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+.textEditor:hover {
+  opacity: 1;
+}
+.techBlog {
+  height: 250px;
+  width: 250px;
+  font-size: 30px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image: url('https://ak.picdn.net/shutterstock/videos/26245283/thumb/1.jpg');
+  background-position-x: center;
+  border-style: solid;
+  border-color: white;
+  opacity: 0.5;
+}
+.techBlog:hover {
+  opacity: 1;
+}
+.ammino {
+  height: 250px;
+  width: 250px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-image: url('https://th.bing.com/th/id/OIP.h_WGdg09oWk0PgtHgwPBXAHaE8?pid=ImgDet&rs=1');
+  background-position-x: center;
+  background-size: 380px;
+  border-style: solid;
+  border-color: white;
+  opacity: 0.5;
+}
+.ammino:hover {
+  opacity: 1;
+}
+
+
+
+
+.nav-linkActive {
+  color: blue;
+}
+.nav-link {
+  color: white;
+}
+
+.portrait {
+  height: 300px;
+  width: 275px;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+.AboutMePic {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+.AboutMePar {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 300px;
+}
+
+.sections {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
 }
