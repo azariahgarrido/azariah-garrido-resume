@@ -20,10 +20,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages-d build"
+    "deploy" : "gh-pages -d build"
   },
 
-  "homepage": "https://github.com/azariahgarrido/azariah-garrido-resume.git",
+  "homepage": "https://azariahgarrido.github.io/azariah-garrido-resume",
 
   "eslintConfig": {
     "extends": [
