@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-
+import validator from 'validator';
 
 export default function Contact() {
   // Here we set two state variables for firstName and lastName using `useState`
   const [firstName, setFirstName] = useState('');
-//   const [lastName, setLastName] = useState('');
+
+  // const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
 
   const handleInputChange = (e) => {
@@ -26,6 +27,17 @@ export default function Contact() {
     };
     openMail();
   };
+
+  const isEmail = () => {
+   let checkE = validator.isEmail(email);
+   console.log(checkE);
+   if(checkE) {
+    handleFormSubmit()
+   } else {
+    alert('Invalid Email');
+   }
+  };
+
 
   return (
     <div>
@@ -53,10 +65,10 @@ export default function Contact() {
                 value={email}
                 name="email"
                 onChange={handleInputChange}
-                type="text"
+                type="email"
                 placeholder="Email"
                 />
-                <button type="button" onClick={handleFormSubmit}>
+                <button type="button" onClick={isEmail}>
                 Submit
                 </button>
             </form>

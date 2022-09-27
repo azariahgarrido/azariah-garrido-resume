@@ -23,6 +23,7 @@ export default function AboutMe() {
                     quality-driven team to build better experiences on the web.
                 </p>
             </div>
+            {/* <div className="aboutMeFoot"></div> */}
         </div>
     )
 }
