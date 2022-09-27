@@ -31,6 +31,18 @@
   margin-left: 400px;
 }
 
+.mobileB {
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+  max-width: 125px;
+}
+.desktopSwitch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .buttonC {
   vertical-align: middle;
