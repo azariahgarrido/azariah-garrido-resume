@@ -30,12 +30,19 @@ export default function Contact() {
 
   const isEmail = () => {
    let checkE = validator.isEmail(email);
-   console.log(checkE);
    if(checkE) {
     handleFormSubmit()
    } else {
     alert('Invalid Email');
    }
+  };
+
+  const startCheck = () => {
+    if(!firstName) {
+      alert('Please enter a first name')
+    } else {
+      isEmail()
+    }
   };
 
 
@@ -68,7 +75,7 @@ export default function Contact() {
                 type="email"
                 placeholder="Email"
                 />
-                <button type="button" onClick={isEmail}>
+                <button type="button" onClick={startCheck}>
                 Submit
                 </button>
             </form>
